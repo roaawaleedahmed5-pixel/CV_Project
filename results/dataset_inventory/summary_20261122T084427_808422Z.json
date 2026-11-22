@@ -1,0 +1,252 @@
+{
+  "scope": "Official trainval.txt photographs only",
+  "annotation_path": "data/raw/annotations/trainval.txt",
+  "started_utc": "2026-11-22T08:43:10.413201+00:00",
+  "finished_utc": "2026-11-22T08:43:20.931642+00:00",
+  "official_annotation_rows_used": 3680,
+  "repeated_annotation_ids": {},
+  "photographs_attempted": 3680,
+  "fully_decoded": 3680,
+  "error_count": 0,
+  "warning_count": 0,
+  "photographs_with_warnings": 0,
+  "breed_count": 37,
+  "counts_by_class_and_breed": [
+    {
+      "class_id": 1,
+      "breed": "Abyssinian",
+      "image_count": 100
+    },
+    {
+      "class_id": 2,
+      "breed": "american_bulldog",
+      "image_count": 100
+    },
+    {
+      "class_id": 3,
+      "breed": "american_pit_bull_terrier",
+      "image_count": 100
+    },
+    {
+      "class_id": 4,
+      "breed": "basset_hound",
+      "image_count": 100
+    },
+    {
+      "class_id": 5,
+      "breed": "beagle",
+      "image_count": 100
+    },
+    {
+      "class_id": 6,
+      "breed": "Bengal",
+      "image_count": 100
+    },
+    {
+      "class_id": 7,
+      "breed": "Birman",
+      "image_count": 100
+    },
+    {
+      "class_id": 8,
+      "breed": "Bombay",
+      "image_count": 96
+    },
+    {
+      "class_id": 9,
+      "breed": "boxer",
+      "image_count": 100
+    },
+    {
+      "class_id": 10,
+      "breed": "British_Shorthair",
+      "image_count": 100
+    },
+    {
+      "class_id": 11,
+      "breed": "chihuahua",
+      "image_count": 100
+    },
+    {
+      "class_id": 12,
+      "breed": "Egyptian_Mau",
+      "image_count": 93
+    },
+    {
+      "class_id": 13,
+      "breed": "english_cocker_spaniel",
+      "image_count": 96
+    },
+    {
+      "class_id": 14,
+      "breed": "english_setter",
+      "image_count": 100
+    },
+    {
+      "class_id": 15,
+      "breed": "german_shorthaired",
+      "image_count": 100
+    },
+    {
+      "class_id": 16,
+      "breed": "great_pyrenees",
+      "image_count": 100
+    },
+    {
+      "class_id": 17,
+      "breed": "havanese",
+      "image_count": 100
+    },
+    {
+      "class_id": 18,
+      "breed": "japanese_chin",
+      "image_count": 100
+    },
+    {
+      "class_id": 19,
+      "breed": "keeshond",
+      "image_count": 100
+    },
+    {
+      "class_id": 20,
+      "breed": "leonberger",
+      "image_count": 100
+    },
+    {
+      "class_id": 21,
+      "breed": "Maine_Coon",
+      "image_count": 100
+    },
+    {
+      "class_id": 22,
+      "breed": "miniature_pinscher",
+      "image_count": 100
+    },
+    {
+      "class_id": 23,
+      "breed": "newfoundland",
+      "image_count": 96
+    },
+    {
+      "class_id": 24,
+      "breed": "Persian",
+      "image_count": 100
+    },
+    {
+      "class_id": 25,
+      "breed": "pomeranian",
+      "image_count": 100
+    },
+    {
+      "class_id": 26,
+      "breed": "pug",
+      "image_count": 100
+    },
+    {
+      "class_id": 27,
+      "breed": "Ragdoll",
+      "image_count": 100
+    },
+    {
+      "class_id": 28,
+      "breed": "Russian_Blue",
+      "image_count": 100
+    },
+    {
+      "class_id": 29,
+      "breed": "saint_bernard",
+      "image_count": 100
+    },
+    {
+      "class_id": 30,
+      "breed": "samoyed",
+      "image_count": 100
+    },
+    {
+      "class_id": 31,
+      "breed": "scottish_terrier",
+      "image_count": 100
+    },
+    {
+      "class_id": 32,
+      "breed": "shiba_inu",
+      "image_count": 100
+    },
+    {
+      "class_id": 33,
+      "breed": "Siamese",
+      "image_count": 99
+    },
+    {
+      "class_id": 34,
+      "breed": "Sphynx",
+      "image_count": 100
+    },
+    {
+      "class_id": 35,
+      "breed": "staffordshire_bull_terrier",
+      "image_count": 100
+    },
+    {
+      "class_id": 36,
+      "breed": "wheaten_terrier",
+      "image_count": 100
+    },
+    {
+      "class_id": 37,
+      "breed": "yorkshire_terrier",
+      "image_count": 100
+    }
+  ],
+  "counts_by_species": {
+    "Cat": 1188,
+    "Dog": 2492
+  },
+  "measurement_scope": "Fully decoded photographs",
+  "measurements": {
+    "width": {
+      "minimum": 114,
+      "median": 500.0,
+      "maximum": 3264,
+      "minimum_image_ids": [
+        "Bombay_103"
+      ],
+      "maximum_image_ids": [
+        "Egyptian_Mau_162"
+      ]
+    },
+    "height": {
+      "minimum": 108,
+      "median": 375.0,
+      "maximum": 2606,
+      "minimum_image_ids": [
+        "Bombay_171"
+      ],
+      "maximum_image_ids": [
+        "Egyptian_Mau_196"
+      ]
+    },
+    "aspect_ratio": {
+      "minimum": 0.516,
+      "median": 1.3333333333333333,
+      "maximum": 2.5641025641025643,
+      "minimum_image_ids": [
+        "Persian_162"
+      ],
+      "maximum_image_ids": [
+        "Abyssinian_175"
+      ]
+    }
+  },
+  "original_colour_mode_counts": {
+    "RGB": 3678,
+    "RGBA": 2
+  },
+  "files": {
+    "per_image": "results/dataset_inventory/per_image_20261122T084427_808422Z.csv",
+    "errors": "results/dataset_inventory/errors_20261122T084427_808422Z.csv",
+    "warnings": "results/dataset_inventory/warnings_20261122T084427_808422Z.csv",
+    "breed_counts": "results/dataset_inventory/breed_counts_20261122T084427_808422Z.png",
+    "dimensions": "results/dataset_inventory/dimensions_20261122T084427_808422Z.png"
+  }
+}

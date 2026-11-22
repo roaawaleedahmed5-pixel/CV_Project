@@ -1,0 +1,187 @@
+[
+  {
+    "label": 0,
+    "official_class_id": 1,
+    "breed_name": "Abyssinian"
+  },
+  {
+    "label": 1,
+    "official_class_id": 2,
+    "breed_name": "american_bulldog"
+  },
+  {
+    "label": 2,
+    "official_class_id": 3,
+    "breed_name": "american_pit_bull_terrier"
+  },
+  {
+    "label": 3,
+    "official_class_id": 4,
+    "breed_name": "basset_hound"
+  },
+  {
+    "label": 4,
+    "official_class_id": 5,
+    "breed_name": "beagle"
+  },
+  {
+    "label": 5,
+    "official_class_id": 6,
+    "breed_name": "Bengal"
+  },
+  {
+    "label": 6,
+    "official_class_id": 7,
+    "breed_name": "Birman"
+  },
+  {
+    "label": 7,
+    "official_class_id": 8,
+    "breed_name": "Bombay"
+  },
+  {
+    "label": 8,
+    "official_class_id": 9,
+    "breed_name": "boxer"
+  },
+  {
+    "label": 9,
+    "official_class_id": 10,
+    "breed_name": "British_Shorthair"
+  },
+  {
+    "label": 10,
+    "official_class_id": 11,
+    "breed_name": "chihuahua"
+  },
+  {
+    "label": 11,
+    "official_class_id": 12,
+    "breed_name": "Egyptian_Mau"
+  },
+  {
+    "label": 12,
+    "official_class_id": 13,
+    "breed_name": "english_cocker_spaniel"
+  },
+  {
+    "label": 13,
+    "official_class_id": 14,
+    "breed_name": "english_setter"
+  },
+  {
+    "label": 14,
+    "official_class_id": 15,
+    "breed_name": "german_shorthaired"
+  },
+  {
+    "label": 15,
+    "official_class_id": 16,
+    "breed_name": "great_pyrenees"
+  },
+  {
+    "label": 16,
+    "official_class_id": 17,
+    "breed_name": "havanese"
+  },
+  {
+    "label": 17,
+    "official_class_id": 18,
+    "breed_name": "japanese_chin"
+  },
+  {
+    "label": 18,
+    "official_class_id": 19,
+    "breed_name": "keeshond"
+  },
+  {
+    "label": 19,
+    "official_class_id": 20,
+    "breed_name": "leonberger"
+  },
+  {
+    "label": 20,
+    "official_class_id": 21,
+    "breed_name": "Maine_Coon"
+  },
+  {
+    "label": 21,
+    "official_class_id": 22,
+    "breed_name": "miniature_pinscher"
+  },
+  {
+    "label": 22,
+    "official_class_id": 23,
+    "breed_name": "newfoundland"
+  },
+  {
+    "label": 23,
+    "official_class_id": 24,
+    "breed_name": "Persian"
+  },
+  {
+    "label": 24,
+    "official_class_id": 25,
+    "breed_name": "pomeranian"
+  },
+  {
+    "label": 25,
+    "official_class_id": 26,
+    "breed_name": "pug"
+  },
+  {
+    "label": 26,
+    "official_class_id": 27,
+    "breed_name": "Ragdoll"
+  },
+  {
+    "label": 27,
+    "official_class_id": 28,
+    "breed_name": "Russian_Blue"
+  },
+  {
+    "label": 28,
+    "official_class_id": 29,
+    "breed_name": "saint_bernard"
+  },
+  {
+    "label": 29,
+    "official_class_id": 30,
+    "breed_name": "samoyed"
+  },
+  {
+    "label": 30,
+    "official_class_id": 31,
+    "breed_name": "scottish_terrier"
+  },
+  {
+    "label": 31,
+    "official_class_id": 32,
+    "breed_name": "shiba_inu"
+  },
+  {
+    "label": 32,
+    "official_class_id": 33,
+    "breed_name": "Siamese"
+  },
+  {
+    "label": 33,
+    "official_class_id": 34,
+    "breed_name": "Sphynx"
+  },
+  {
+    "label": 34,
+    "official_class_id": 35,
+    "breed_name": "staffordshire_bull_terrier"
+  },
+  {
+    "label": 35,
+    "official_class_id": 36,
+    "breed_name": "wheaten_terrier"
+  },
+  {
+    "label": 36,
+    "official_class_id": 37,
+    "breed_name": "yorkshire_terrier"
+  }
+]

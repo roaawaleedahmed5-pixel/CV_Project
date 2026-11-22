@@ -1,0 +1,2 @@
+# Keep manifest bytes and their recorded hashes stable across checkouts.
+/data/manifests/* text eol=lf

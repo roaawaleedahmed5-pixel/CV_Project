@@ -1,0 +1,182 @@
+{
+  "verification_started_utc": "2026-11-22T08:08:26+00:00",
+  "report_saved_utc": "2026-11-22T08:15:53+00:00",
+  "archives": {
+    "images.tar.gz": {
+      "filename": "images.tar.gz",
+      "path": "data/downloads/images.tar.gz",
+      "size_bytes": 791918971,
+      "sha256": "67195c5e1c01f1ab5f9b6a5d22b8c27a580d896ece458917e61d459337fa318d",
+      "regular_file_entries": 7393,
+      "verified_extracted_files": 7393
+    },
+    "annotations.tar.gz": {
+      "filename": "annotations.tar.gz",
+      "path": "data/downloads/annotations.tar.gz",
+      "size_bytes": 19173078,
+      "sha256": "52425fb6de5c424942b7626b428656fcbd798db970a937df61750c0f1d358e91",
+      "regular_file_entries": 18471,
+      "verified_extracted_files": 18471
+    }
+  },
+  "checks": {
+    "images.tar.gz / local SHA-256": {
+      "status": "PASS"
+    },
+    "images.tar.gz / gzip through EOF": {
+      "status": "PASS",
+      "uncompressed_bytes": 802191360
+    },
+    "images.tar.gz / tar entries readable": {
+      "status": "PASS",
+      "entries": 7394
+    },
+    "images.tar.gz / publisher SHA-256 comparison": {
+      "status": "SKIP",
+      "reason": "No authoritative publisher SHA-256 supplied."
+    },
+    "annotations.tar.gz / local SHA-256": {
+      "status": "PASS"
+    },
+    "annotations.tar.gz / gzip through EOF": {
+      "status": "PASS",
+      "uncompressed_bytes": 37969920
+    },
+    "annotations.tar.gz / tar entries readable": {
+      "status": "PASS",
+      "entries": 18474
+    },
+    "annotations.tar.gz / publisher SHA-256 comparison": {
+      "status": "SKIP",
+      "reason": "No authoritative publisher SHA-256 supplied."
+    },
+    "images.tar.gz / extracted unsafe paths": {
+      "status": "PASS",
+      "count": 0
+    },
+    "images.tar.gz / extracted unexpected links or types": {
+      "status": "PASS",
+      "count": 0
+    },
+    "images.tar.gz / extracted duplicate targets": {
+      "status": "PASS",
+      "count": 0
+    },
+    "images.tar.gz / extracted missing files": {
+      "status": "PASS",
+      "count": 0
+    },
+    "images.tar.gz / extracted size mismatches": {
+      "status": "PASS",
+      "count": 0
+    },
+    "images.tar.gz / extracted sha256 mismatches": {
+      "status": "PASS",
+      "count": 0
+    },
+    "images.tar.gz / extracted read errors": {
+      "status": "PASS",
+      "count": 0
+    },
+    "annotations.tar.gz / extracted unsafe paths": {
+      "status": "PASS",
+      "count": 0
+    },
+    "annotations.tar.gz / extracted unexpected links or types": {
+      "status": "PASS",
+      "count": 0
+    },
+    "annotations.tar.gz / extracted duplicate targets": {
+      "status": "PASS",
+      "count": 0
+    },
+    "annotations.tar.gz / extracted missing files": {
+      "status": "PASS",
+      "count": 0
+    },
+    "annotations.tar.gz / extracted size mismatches": {
+      "status": "PASS",
+      "count": 0
+    },
+    "annotations.tar.gz / extracted sha256 mismatches": {
+      "status": "PASS",
+      "count": 0
+    },
+    "annotations.tar.gz / extracted read errors": {
+      "status": "PASS",
+      "count": 0
+    },
+    "Annotation input files": {
+      "status": "PASS"
+    },
+    "trainval.txt / malformed rows": {
+      "status": "PASS",
+      "count": 0
+    },
+    "trainval.txt / invalid label values": {
+      "status": "PASS",
+      "count": 0
+    },
+    "trainval.txt / printed species-specific breed limits": {
+      "status": "FAIL",
+      "count": 1296
+    },
+    "trainval.txt / duplicate image IDs": {
+      "status": "PASS",
+      "count": 0
+    },
+    "test.txt / malformed rows": {
+      "status": "PASS",
+      "count": 0
+    },
+    "test.txt / invalid label values": {
+      "status": "PASS",
+      "count": 0
+    },
+    "test.txt / printed species-specific breed limits": {
+      "status": "FAIL",
+      "count": 1287
+    },
+    "test.txt / duplicate image IDs": {
+      "status": "PASS",
+      "count": 0
+    },
+    "Split overlap": {
+      "status": "PASS",
+      "count": 0
+    },
+    "Breed-name and class-ID mapping": {
+      "status": "PASS",
+      "count": 0
+    },
+    "JPG inventory traversal": {
+      "status": "PASS",
+      "count": 0
+    },
+    "Listed JPGs exist": {
+      "status": "PASS",
+      "count": 0
+    },
+    "JPGs absent from both split lists": {
+      "status": "PASS",
+      "count": 41
+    }
+  },
+  "counts": {
+    "trainval.txt": {
+      "records": 3680,
+      "parsed_rows": 3680,
+      "unique_recognized_ids": 3680
+    },
+    "test.txt": {
+      "records": 3669,
+      "parsed_rows": 3669,
+      "unique_recognized_ids": 3669
+    },
+    "unique_ids_across_splits": 7349,
+    "observed_class_ids": 37,
+    "observed_breed_names": 37,
+    "inventoried_jpgs": 7390
+  },
+  "discrepancy_details_path": "results/dataset_verification/details_20261122T081553_577669Z.json"
+}

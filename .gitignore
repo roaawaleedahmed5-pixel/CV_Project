@@ -1,0 +1,24 @@
+# Local dataset files. data/manifests/ is intentionally trackable.
+/data/raw/
+/data/downloads/
+
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Incomplete downloads and writes
+*.part
+*.partial
+*.tmp
+
+# Keep compact evidence summaries available for sharing
+/results/dataset_verification/*
+!/results/dataset_verification/verification_*.json
+/results/dataset_inventory/*
+!/results/dataset_inventory/summary_*.json

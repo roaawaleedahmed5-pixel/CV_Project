@@ -1,0 +1,335 @@
+{
+  "trainval_ratios": {
+    "train": 0.8,
+    "val": 0.2
+  },
+  "seed": 42,
+  "algorithm": "Sort official class IDs numerically and sort each class's trainval records by image_id using case-sensitive Python string order. Use one numpy.random.default_rng(42) and, for each class in that order, select floor(0.2 * class_count + 0.5) VAL indices with rng.choice(class_count, size=val_count, replace=False). Put the remaining records in TRAIN. Copy official TEST membership. Sort each final manifest by image_id.",
+  "numpy_version": "2.4.6",
+  "official_test_membership_preserved": true,
+  "split_sizes": {
+    "train": 2944,
+    "val": 736,
+    "test": 3669
+  },
+  "per_breed_counts": [
+    {
+      "label": 0,
+      "official_class_id": 1,
+      "breed_name": "Abyssinian",
+      "train": 80,
+      "val": 20,
+      "test": 98
+    },
+    {
+      "label": 1,
+      "official_class_id": 2,
+      "breed_name": "american_bulldog",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 2,
+      "official_class_id": 3,
+      "breed_name": "american_pit_bull_terrier",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 3,
+      "official_class_id": 4,
+      "breed_name": "basset_hound",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 4,
+      "official_class_id": 5,
+      "breed_name": "beagle",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 5,
+      "official_class_id": 6,
+      "breed_name": "Bengal",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 6,
+      "official_class_id": 7,
+      "breed_name": "Birman",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 7,
+      "official_class_id": 8,
+      "breed_name": "Bombay",
+      "train": 77,
+      "val": 19,
+      "test": 88
+    },
+    {
+      "label": 8,
+      "official_class_id": 9,
+      "breed_name": "boxer",
+      "train": 80,
+      "val": 20,
+      "test": 99
+    },
+    {
+      "label": 9,
+      "official_class_id": 10,
+      "breed_name": "British_Shorthair",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 10,
+      "official_class_id": 11,
+      "breed_name": "chihuahua",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 11,
+      "official_class_id": 12,
+      "breed_name": "Egyptian_Mau",
+      "train": 74,
+      "val": 19,
+      "test": 97
+    },
+    {
+      "label": 12,
+      "official_class_id": 13,
+      "breed_name": "english_cocker_spaniel",
+      "train": 77,
+      "val": 19,
+      "test": 100
+    },
+    {
+      "label": 13,
+      "official_class_id": 14,
+      "breed_name": "english_setter",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 14,
+      "official_class_id": 15,
+      "breed_name": "german_shorthaired",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 15,
+      "official_class_id": 16,
+      "breed_name": "great_pyrenees",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 16,
+      "official_class_id": 17,
+      "breed_name": "havanese",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 17,
+      "official_class_id": 18,
+      "breed_name": "japanese_chin",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 18,
+      "official_class_id": 19,
+      "breed_name": "keeshond",
+      "train": 80,
+      "val": 20,
+      "test": 99
+    },
+    {
+      "label": 19,
+      "official_class_id": 20,
+      "breed_name": "leonberger",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 20,
+      "official_class_id": 21,
+      "breed_name": "Maine_Coon",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 21,
+      "official_class_id": 22,
+      "breed_name": "miniature_pinscher",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 22,
+      "official_class_id": 23,
+      "breed_name": "newfoundland",
+      "train": 77,
+      "val": 19,
+      "test": 100
+    },
+    {
+      "label": 23,
+      "official_class_id": 24,
+      "breed_name": "Persian",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 24,
+      "official_class_id": 25,
+      "breed_name": "pomeranian",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 25,
+      "official_class_id": 26,
+      "breed_name": "pug",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 26,
+      "official_class_id": 27,
+      "breed_name": "Ragdoll",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 27,
+      "official_class_id": 28,
+      "breed_name": "Russian_Blue",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 28,
+      "official_class_id": 29,
+      "breed_name": "saint_bernard",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 29,
+      "official_class_id": 30,
+      "breed_name": "samoyed",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 30,
+      "official_class_id": 31,
+      "breed_name": "scottish_terrier",
+      "train": 80,
+      "val": 20,
+      "test": 99
+    },
+    {
+      "label": 31,
+      "official_class_id": 32,
+      "breed_name": "shiba_inu",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 32,
+      "official_class_id": 33,
+      "breed_name": "Siamese",
+      "train": 79,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 33,
+      "official_class_id": 34,
+      "breed_name": "Sphynx",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 34,
+      "official_class_id": 35,
+      "breed_name": "staffordshire_bull_terrier",
+      "train": 80,
+      "val": 20,
+      "test": 89
+    },
+    {
+      "label": 35,
+      "official_class_id": 36,
+      "breed_name": "wheaten_terrier",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    },
+    {
+      "label": 36,
+      "official_class_id": 37,
+      "breed_name": "yorkshire_terrier",
+      "train": 80,
+      "val": 20,
+      "test": 100
+    }
+  ],
+  "checks": {
+    "official_trainval_coverage_once": true,
+    "train_val_test_disjoint": true,
+    "official_test_membership_exact": true,
+    "every_breed_in_train_and_val": true,
+    "labels_equal_official_class_id_minus_one": true,
+    "breed_and_label_mapping_consistent": true,
+    "official_records_only": true
+  },
+  "source_annotation_sha256": {
+    "annotations/trainval.txt": "408f3f609481b939c94634169e6413414b733a3faeba440cbdcc5c02142eebdc",
+    "annotations/test.txt": "a5454003774ffe01f4f322756d3ba5495bae21cb30bb217ab285dbfa2bef245c"
+  },
+  "exported_file_sha256": {
+    "train.csv": "9e82b79ce15bf5ee13296965b57e3cc77c7703d2e2376b0446521142cc6e0b92",
+    "train_ids.txt": "a0a86b9dcbd51e342289d101fd0c349fa6ee46e20c6b397517d709482dc7004d",
+    "val.csv": "96701ac730d4746aae4db797617732e684699bf8524ae8b0bb410db874c1b382",
+    "val_ids.txt": "6bcade299ad358870bb0ea29566f001684a1632a7717a9db9df30584b86b9466",
+    "test.csv": "ceb2b7fa337eff31d1e695d7cc73084801ea7eabe0d9611a1a5adf79196e0aa9",
+    "test_ids.txt": "6f813b1715020600bd4fb76517b94691a512f83e1d2ce0604ba9cbc6605f427e",
+    "label_mapping.json": "7a1ad19cb5d5e212bb47ba51de89bfc917ab8c6ab6f36ebd2ee2aa0b64d11345"
+  }
+}
