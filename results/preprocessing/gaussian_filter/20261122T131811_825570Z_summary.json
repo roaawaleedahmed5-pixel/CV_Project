@@ -1,0 +1,72 @@
+{
+  "scope": "TRAIN",
+  "operation": "gaussian_filter",
+  "kernel_size": 7,
+  "sigmas": [
+    1.0,
+    1.5
+  ],
+  "padding": "NumPy reflect",
+  "examples": [
+    {
+      "image_id": "British_Shorthair_17",
+      "original_width": 500,
+      "original_height": 332,
+      "timings": [
+        {
+          "variant": "Gaussian 7 \u00d7 7, \u03c3=1",
+          "kernel_size": 7,
+          "sigma": 1.0,
+          "filter_seconds": 0.02300239999749465
+        },
+        {
+          "variant": "Gaussian 7 \u00d7 7, \u03c3=1.5",
+          "kernel_size": 7,
+          "sigma": 1.5,
+          "filter_seconds": 0.01749289999861503
+        }
+      ],
+      "figure": "20261122T131811_825570Z_British_Shorthair_17.png"
+    },
+    {
+      "image_id": "staffordshire_bull_terrier_199",
+      "original_width": 500,
+      "original_height": 311,
+      "timings": [
+        {
+          "variant": "Gaussian 7 \u00d7 7, \u03c3=1",
+          "kernel_size": 7,
+          "sigma": 1.0,
+          "filter_seconds": 0.015217899999697693
+        },
+        {
+          "variant": "Gaussian 7 \u00d7 7, \u03c3=1.5",
+          "kernel_size": 7,
+          "sigma": 1.5,
+          "filter_seconds": 0.015314999996917322
+        }
+      ],
+      "figure": "20261122T131811_825570Z_staffordshire_bull_terrier_199.png"
+    },
+    {
+      "image_id": "english_setter_16",
+      "original_width": 500,
+      "original_height": 333,
+      "timings": [
+        {
+          "variant": "Gaussian 7 \u00d7 7, \u03c3=1",
+          "kernel_size": 7,
+          "sigma": 1.0,
+          "filter_seconds": 0.01509269999951357
+        },
+        {
+          "variant": "Gaussian 7 \u00d7 7, \u03c3=1.5",
+          "kernel_size": 7,
+          "sigma": 1.5,
+          "filter_seconds": 0.014677200000733137
+        }
+      ],
+      "figure": "20261122T131811_825570Z_english_setter_16.png"
+    }
+  ]
+}

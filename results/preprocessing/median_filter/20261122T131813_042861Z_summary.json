@@ -1,0 +1,47 @@
+{
+  "scope": "TRAIN",
+  "operation": "median_filter",
+  "kernel_size": 3,
+  "padding": "NumPy reflect",
+  "examples": [
+    {
+      "image_id": "British_Shorthair_17",
+      "original_width": 500,
+      "original_height": 332,
+      "timings": [
+        {
+          "variant": "Median 3 \u00d7 3",
+          "kernel_size": 3,
+          "filter_seconds": 0.08411680000426713
+        }
+      ],
+      "figure": "20261122T131813_042861Z_British_Shorthair_17.png"
+    },
+    {
+      "image_id": "staffordshire_bull_terrier_199",
+      "original_width": 500,
+      "original_height": 311,
+      "timings": [
+        {
+          "variant": "Median 3 \u00d7 3",
+          "kernel_size": 3,
+          "filter_seconds": 0.08326439999655122
+        }
+      ],
+      "figure": "20261122T131813_042861Z_staffordshire_bull_terrier_199.png"
+    },
+    {
+      "image_id": "english_setter_16",
+      "original_width": 500,
+      "original_height": 333,
+      "timings": [
+        {
+          "variant": "Median 3 \u00d7 3",
+          "kernel_size": 3,
+          "filter_seconds": 0.07134560000122292
+        }
+      ],
+      "figure": "20261122T131813_042861Z_english_setter_16.png"
+    }
+  ]
+}

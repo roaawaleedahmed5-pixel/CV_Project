@@ -1,0 +1,57 @@
+{
+  "scope": "TRAIN",
+  "operation": "histogram_equalisation",
+  "component": "HSV V",
+  "histogram_bins": 256,
+  "cdf_baseline": "first occupied cumulative count",
+  "hsv_conversion": "Matplotlib float64, channels in [0, 1]",
+  "software_versions": {
+    "Python": "3.11.9",
+    "NumPy": "2.4.6",
+    "Pillow": "13.0.0",
+    "Matplotlib": "3.11.2"
+  },
+  "selected_image_ids": [
+    "saint_bernard_109",
+    "Persian_114",
+    "Bengal_112"
+  ],
+  "examples": [
+    {
+      "image_id": "saint_bernard_109",
+      "original_width": 500,
+      "original_height": 332,
+      "timings": [
+        {
+          "variant": "Equalise HSV value",
+          "filter_seconds": 0.06685419999848818
+        }
+      ],
+      "figure": "20261122T135901_793152Z_saint_bernard_109.png"
+    },
+    {
+      "image_id": "Persian_114",
+      "original_width": 500,
+      "original_height": 439,
+      "timings": [
+        {
+          "variant": "Equalise HSV value",
+          "filter_seconds": 0.07300360000226647
+        }
+      ],
+      "figure": "20261122T135901_793152Z_Persian_114.png"
+    },
+    {
+      "image_id": "Bengal_112",
+      "original_width": 500,
+      "original_height": 436,
+      "timings": [
+        {
+          "variant": "Equalise HSV value",
+          "filter_seconds": 0.09279110000352375
+        }
+      ],
+      "figure": "20261122T135901_793152Z_Bengal_112.png"
+    }
+  ]
+}

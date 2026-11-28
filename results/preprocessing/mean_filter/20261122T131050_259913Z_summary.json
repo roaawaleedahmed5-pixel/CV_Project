@@ -1,0 +1,82 @@
+{
+  "scope": "TRAIN",
+  "operation": "mean_filter",
+  "kernel_sizes": [
+    3,
+    5,
+    7
+  ],
+  "padding": "NumPy reflect",
+  "rounding": "np.rint, then clip to [0, 255] and cast to uint8",
+  "examples": [
+    {
+      "image_id": "British_Shorthair_17",
+      "original_width": 500,
+      "original_height": 332,
+      "timings": [
+        {
+          "variant": "Mean 3 \u00d7 3",
+          "kernel_size": 3,
+          "filter_seconds": 0.012540600000647828
+        },
+        {
+          "variant": "Mean 5 \u00d7 5",
+          "kernel_size": 5,
+          "filter_seconds": 0.008118899997498374
+        },
+        {
+          "variant": "Mean 7 \u00d7 7",
+          "kernel_size": 7,
+          "filter_seconds": 0.006550499994773418
+        }
+      ],
+      "figure": "20261122T131050_259913Z_British_Shorthair_17.png"
+    },
+    {
+      "image_id": "staffordshire_bull_terrier_199",
+      "original_width": 500,
+      "original_height": 311,
+      "timings": [
+        {
+          "variant": "Mean 3 \u00d7 3",
+          "kernel_size": 3,
+          "filter_seconds": 0.006887099996674806
+        },
+        {
+          "variant": "Mean 5 \u00d7 5",
+          "kernel_size": 5,
+          "filter_seconds": 0.006009600001561921
+        },
+        {
+          "variant": "Mean 7 \u00d7 7",
+          "kernel_size": 7,
+          "filter_seconds": 0.006069800001569092
+        }
+      ],
+      "figure": "20261122T131050_259913Z_staffordshire_bull_terrier_199.png"
+    },
+    {
+      "image_id": "english_setter_16",
+      "original_width": 500,
+      "original_height": 333,
+      "timings": [
+        {
+          "variant": "Mean 3 \u00d7 3",
+          "kernel_size": 3,
+          "filter_seconds": 0.0076432999994722195
+        },
+        {
+          "variant": "Mean 5 \u00d7 5",
+          "kernel_size": 5,
+          "filter_seconds": 0.007167600000684615
+        },
+        {
+          "variant": "Mean 7 \u00d7 7",
+          "kernel_size": 7,
+          "filter_seconds": 0.007229700000607409
+        }
+      ],
+      "figure": "20261122T131050_259913Z_english_setter_16.png"
+    }
+  ]
+}

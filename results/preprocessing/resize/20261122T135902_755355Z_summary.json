@@ -1,0 +1,372 @@
+{
+  "scope": "TRAIN",
+  "operation": "resize",
+  "library": "Pillow",
+  "library_version": "13.0.0",
+  "reducing_gap": null,
+  "interpolation_comparison": {
+    "square_sizes": [
+      128,
+      96,
+      64
+    ],
+    "methods": [
+      "nearest",
+      "bilinear",
+      "bicubic"
+    ],
+    "policy": "stretch"
+  },
+  "geometry_comparison": {
+    "size": [
+      128,
+      128
+    ],
+    "interpolation": "bilinear",
+    "policies": [
+      "stretch",
+      "pad",
+      "center_crop"
+    ],
+    "padding_colour": [
+      0,
+      0,
+      0
+    ]
+  },
+  "software_versions": {
+    "Python": "3.11.9",
+    "NumPy": "2.4.6",
+    "Pillow": "13.0.0",
+    "Matplotlib": "3.11.2"
+  },
+  "selected_image_ids": [
+    "saint_bernard_109",
+    "Persian_114",
+    "Bengal_112"
+  ],
+  "examples": [
+    {
+      "detail_region": {
+        "target_width": 96,
+        "target_height": 96,
+        "x_start": 36,
+        "x_stop_exclusive": 60,
+        "y_start": 36,
+        "y_stop_exclusive": 60,
+        "preview_interpolation": "nearest"
+      },
+      "image_id": "saint_bernard_109",
+      "original_width": 500,
+      "original_height": 332,
+      "timings": [
+        {
+          "variant": "Nearest 128 \u00d7 128",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "nearest",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0009471000012126751
+        },
+        {
+          "variant": "Bilinear 128 \u00d7 128",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0011199000000488013
+        },
+        {
+          "variant": "Bicubic 128 \u00d7 128",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "bicubic",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.002253700004075654
+        },
+        {
+          "variant": "Nearest 96 \u00d7 96",
+          "target_width": 96,
+          "target_height": 96,
+          "interpolation": "nearest",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.00029260000155773014
+        },
+        {
+          "variant": "Bilinear 96 \u00d7 96",
+          "target_width": 96,
+          "target_height": 96,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0009914000038406812
+        },
+        {
+          "variant": "Bicubic 96 \u00d7 96",
+          "target_width": 96,
+          "target_height": 96,
+          "interpolation": "bicubic",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0014226000057533383
+        },
+        {
+          "variant": "Nearest 64 \u00d7 64",
+          "target_width": 64,
+          "target_height": 64,
+          "interpolation": "nearest",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0002007000002777204
+        },
+        {
+          "variant": "Bilinear 64 \u00d7 64",
+          "target_width": 64,
+          "target_height": 64,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0019073999937972985
+        },
+        {
+          "variant": "Bicubic 64 \u00d7 64",
+          "target_width": 64,
+          "target_height": 64,
+          "interpolation": "bicubic",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.001055699998687487
+        },
+        {
+          "variant": "Pad",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "pad",
+          "padding_colour": [
+            0,
+            0,
+            0
+          ],
+          "filter_seconds": 0.0008412999959546141
+        },
+        {
+          "variant": "Center crop",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "center_crop",
+          "filter_seconds": 0.0008995999960461631
+        }
+      ],
+      "figures": {
+        "interpolation": "20261122T135902_755355Z_saint_bernard_109_interpolation.png",
+        "geometry": "20261122T135902_755355Z_saint_bernard_109_geometry.png",
+        "detail": "20261122T135902_755355Z_saint_bernard_109_detail.png"
+      }
+    },
+    {
+      "image_id": "Persian_114",
+      "original_width": 500,
+      "original_height": 439,
+      "timings": [
+        {
+          "variant": "Nearest 128 \u00d7 128",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "nearest",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0003974999999627471
+        },
+        {
+          "variant": "Bilinear 128 \u00d7 128",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0010261999996146187
+        },
+        {
+          "variant": "Bicubic 128 \u00d7 128",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "bicubic",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.001687200005108025
+        },
+        {
+          "variant": "Nearest 96 \u00d7 96",
+          "target_width": 96,
+          "target_height": 96,
+          "interpolation": "nearest",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0002082999999402091
+        },
+        {
+          "variant": "Bilinear 96 \u00d7 96",
+          "target_width": 96,
+          "target_height": 96,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0010448000030010007
+        },
+        {
+          "variant": "Bicubic 96 \u00d7 96",
+          "target_width": 96,
+          "target_height": 96,
+          "interpolation": "bicubic",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0016119000065373257
+        },
+        {
+          "variant": "Nearest 64 \u00d7 64",
+          "target_width": 64,
+          "target_height": 64,
+          "interpolation": "nearest",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0004802999974344857
+        },
+        {
+          "variant": "Bilinear 64 \u00d7 64",
+          "target_width": 64,
+          "target_height": 64,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0009916999988490716
+        },
+        {
+          "variant": "Bicubic 64 \u00d7 64",
+          "target_width": 64,
+          "target_height": 64,
+          "interpolation": "bicubic",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0015885000029811636
+        },
+        {
+          "variant": "Pad",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "pad",
+          "padding_colour": [
+            0,
+            0,
+            0
+          ],
+          "filter_seconds": 0.0011919999960809946
+        },
+        {
+          "variant": "Center crop",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "center_crop",
+          "filter_seconds": 0.0011901999969268218
+        }
+      ],
+      "figures": {
+        "interpolation": "20261122T135902_755355Z_Persian_114_interpolation.png",
+        "geometry": "20261122T135902_755355Z_Persian_114_geometry.png"
+      }
+    },
+    {
+      "image_id": "Bengal_112",
+      "original_width": 500,
+      "original_height": 436,
+      "timings": [
+        {
+          "variant": "Nearest 128 \u00d7 128",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "nearest",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0005787000045529567
+        },
+        {
+          "variant": "Bilinear 128 \u00d7 128",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0010562000024947338
+        },
+        {
+          "variant": "Bicubic 128 \u00d7 128",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "bicubic",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0018326000063098036
+        },
+        {
+          "variant": "Nearest 96 \u00d7 96",
+          "target_width": 96,
+          "target_height": 96,
+          "interpolation": "nearest",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.00033770000300137326
+        },
+        {
+          "variant": "Bilinear 96 \u00d7 96",
+          "target_width": 96,
+          "target_height": 96,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0009600999983376823
+        },
+        {
+          "variant": "Bicubic 96 \u00d7 96",
+          "target_width": 96,
+          "target_height": 96,
+          "interpolation": "bicubic",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0016241999983321875
+        },
+        {
+          "variant": "Nearest 64 \u00d7 64",
+          "target_width": 64,
+          "target_height": 64,
+          "interpolation": "nearest",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0003282999969087541
+        },
+        {
+          "variant": "Bilinear 64 \u00d7 64",
+          "target_width": 64,
+          "target_height": 64,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0008526000019628555
+        },
+        {
+          "variant": "Bicubic 64 \u00d7 64",
+          "target_width": 64,
+          "target_height": 64,
+          "interpolation": "bicubic",
+          "aspect_ratio_policy": "stretch",
+          "filter_seconds": 0.0013624999992316589
+        },
+        {
+          "variant": "Pad",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "pad",
+          "padding_colour": [
+            0,
+            0,
+            0
+          ],
+          "filter_seconds": 0.0010853999992832541
+        },
+        {
+          "variant": "Center crop",
+          "target_width": 128,
+          "target_height": 128,
+          "interpolation": "bilinear",
+          "aspect_ratio_policy": "center_crop",
+          "filter_seconds": 0.0010583000039332546
+        }
+      ],
+      "figures": {
+        "interpolation": "20261122T135902_755355Z_Bengal_112_interpolation.png",
+        "geometry": "20261122T135902_755355Z_Bengal_112_geometry.png"
+      }
+    }
+  ]
+}

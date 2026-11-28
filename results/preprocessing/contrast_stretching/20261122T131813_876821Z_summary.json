@@ -1,0 +1,65 @@
+{
+  "scope": "TRAIN",
+  "operation": "contrast_stretching",
+  "modes": [
+    "hsv_value",
+    "rgb_channels"
+  ],
+  "hsv_conversion": "Matplotlib float64, channels in [0, 1]",
+  "examples": [
+    {
+      "image_id": "British_Shorthair_17",
+      "original_width": 500,
+      "original_height": 332,
+      "timings": [
+        {
+          "variant": "Stretch HSV value",
+          "mode": "hsv_value",
+          "filter_seconds": 0.06720019999920623
+        },
+        {
+          "variant": "Stretch RGB channels",
+          "mode": "rgb_channels",
+          "filter_seconds": 0.00640679999924032
+        }
+      ],
+      "figure": "20261122T131813_876821Z_British_Shorthair_17.png"
+    },
+    {
+      "image_id": "staffordshire_bull_terrier_199",
+      "original_width": 500,
+      "original_height": 311,
+      "timings": [
+        {
+          "variant": "Stretch HSV value",
+          "mode": "hsv_value",
+          "filter_seconds": 0.054464299995743204
+        },
+        {
+          "variant": "Stretch RGB channels",
+          "mode": "rgb_channels",
+          "filter_seconds": 0.006958099998882972
+        }
+      ],
+      "figure": "20261122T131813_876821Z_staffordshire_bull_terrier_199.png"
+    },
+    {
+      "image_id": "english_setter_16",
+      "original_width": 500,
+      "original_height": 333,
+      "timings": [
+        {
+          "variant": "Stretch HSV value",
+          "mode": "hsv_value",
+          "filter_seconds": 0.06392939999932423
+        },
+        {
+          "variant": "Stretch RGB channels",
+          "mode": "rgb_channels",
+          "filter_seconds": 0.008017000000108965
+        }
+      ],
+      "figure": "20261122T131813_876821Z_english_setter_16.png"
+    }
+  ]
+}

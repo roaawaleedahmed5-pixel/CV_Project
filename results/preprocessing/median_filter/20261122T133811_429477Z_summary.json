@@ -1,0 +1,52 @@
+{
+  "scope": "TRAIN",
+  "operation": "median_filter",
+  "kernel_size": 3,
+  "padding": "NumPy reflect",
+  "selected_image_ids": [
+    "saint_bernard_109",
+    "Persian_114",
+    "Bengal_112"
+  ],
+  "examples": [
+    {
+      "image_id": "saint_bernard_109",
+      "original_width": 500,
+      "original_height": 332,
+      "timings": [
+        {
+          "variant": "Median 3 \u00d7 3",
+          "kernel_size": 3,
+          "filter_seconds": 0.0855059000023175
+        }
+      ],
+      "figure": "20261122T133811_429477Z_saint_bernard_109.png"
+    },
+    {
+      "image_id": "Persian_114",
+      "original_width": 500,
+      "original_height": 439,
+      "timings": [
+        {
+          "variant": "Median 3 \u00d7 3",
+          "kernel_size": 3,
+          "filter_seconds": 0.08737999999721069
+        }
+      ],
+      "figure": "20261122T133811_429477Z_Persian_114.png"
+    },
+    {
+      "image_id": "Bengal_112",
+      "original_width": 500,
+      "original_height": 436,
+      "timings": [
+        {
+          "variant": "Median 3 \u00d7 3",
+          "kernel_size": 3,
+          "filter_seconds": 0.10907240000233287
+        }
+      ],
+      "figure": "20261122T133811_429477Z_Bengal_112.png"
+    }
+  ]
+}

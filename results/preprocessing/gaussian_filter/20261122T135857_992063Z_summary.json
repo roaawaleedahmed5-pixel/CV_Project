@@ -1,0 +1,83 @@
+{
+  "scope": "TRAIN",
+  "operation": "gaussian_filter",
+  "kernel_size": 7,
+  "sigmas": [
+    1.0,
+    1.5
+  ],
+  "padding": "NumPy reflect",
+  "software_versions": {
+    "Python": "3.11.9",
+    "NumPy": "2.4.6",
+    "Pillow": "13.0.0",
+    "Matplotlib": "3.11.2"
+  },
+  "selected_image_ids": [
+    "saint_bernard_109",
+    "Persian_114",
+    "Bengal_112"
+  ],
+  "examples": [
+    {
+      "image_id": "saint_bernard_109",
+      "original_width": 500,
+      "original_height": 332,
+      "timings": [
+        {
+          "variant": "Gaussian 7 \u00d7 7, \u03c3=1",
+          "kernel_size": 7,
+          "sigma": 1.0,
+          "filter_seconds": 0.015299899998353794
+        },
+        {
+          "variant": "Gaussian 7 \u00d7 7, \u03c3=1.5",
+          "kernel_size": 7,
+          "sigma": 1.5,
+          "filter_seconds": 0.015516600004048087
+        }
+      ],
+      "figure": "20261122T135857_992063Z_saint_bernard_109.png"
+    },
+    {
+      "image_id": "Persian_114",
+      "original_width": 500,
+      "original_height": 439,
+      "timings": [
+        {
+          "variant": "Gaussian 7 \u00d7 7, \u03c3=1",
+          "kernel_size": 7,
+          "sigma": 1.0,
+          "filter_seconds": 0.02012770000146702
+        },
+        {
+          "variant": "Gaussian 7 \u00d7 7, \u03c3=1.5",
+          "kernel_size": 7,
+          "sigma": 1.5,
+          "filter_seconds": 0.02244310000241967
+        }
+      ],
+      "figure": "20261122T135857_992063Z_Persian_114.png"
+    },
+    {
+      "image_id": "Bengal_112",
+      "original_width": 500,
+      "original_height": 436,
+      "timings": [
+        {
+          "variant": "Gaussian 7 \u00d7 7, \u03c3=1",
+          "kernel_size": 7,
+          "sigma": 1.0,
+          "filter_seconds": 0.021408799999335315
+        },
+        {
+          "variant": "Gaussian 7 \u00d7 7, \u03c3=1.5",
+          "kernel_size": 7,
+          "sigma": 1.5,
+          "filter_seconds": 0.0208003000007011
+        }
+      ],
+      "figure": "20261122T135857_992063Z_Bengal_112.png"
+    }
+  ]
+}

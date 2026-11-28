@@ -1,0 +1,76 @@
+{
+  "scope": "TRAIN",
+  "operation": "contrast_stretching",
+  "modes": [
+    "hsv_value",
+    "rgb_channels"
+  ],
+  "hsv_conversion": "Matplotlib float64, channels in [0, 1]",
+  "software_versions": {
+    "Python": "3.11.9",
+    "NumPy": "2.4.6",
+    "Pillow": "13.0.0",
+    "Matplotlib": "3.11.2"
+  },
+  "selected_image_ids": [
+    "saint_bernard_109",
+    "Persian_114",
+    "Bengal_112"
+  ],
+  "examples": [
+    {
+      "image_id": "saint_bernard_109",
+      "original_width": 500,
+      "original_height": 332,
+      "timings": [
+        {
+          "variant": "Stretch HSV value",
+          "mode": "hsv_value",
+          "filter_seconds": 0.061523600001237355
+        },
+        {
+          "variant": "Stretch RGB channels",
+          "mode": "rgb_channels",
+          "filter_seconds": 0.007205300003988668
+        }
+      ],
+      "figure": "20261122T135900_412485Z_saint_bernard_109.png"
+    },
+    {
+      "image_id": "Persian_114",
+      "original_width": 500,
+      "original_height": 439,
+      "timings": [
+        {
+          "variant": "Stretch HSV value",
+          "mode": "hsv_value",
+          "filter_seconds": 0.06794139999692561
+        },
+        {
+          "variant": "Stretch RGB channels",
+          "mode": "rgb_channels",
+          "filter_seconds": 0.009941000003891531
+        }
+      ],
+      "figure": "20261122T135900_412485Z_Persian_114.png"
+    },
+    {
+      "image_id": "Bengal_112",
+      "original_width": 500,
+      "original_height": 436,
+      "timings": [
+        {
+          "variant": "Stretch HSV value",
+          "mode": "hsv_value",
+          "filter_seconds": 0.08174390000203857
+        },
+        {
+          "variant": "Stretch RGB channels",
+          "mode": "rgb_channels",
+          "filter_seconds": 0.011527100003149826
+        }
+      ],
+      "figure": "20261122T135900_412485Z_Bengal_112.png"
+    }
+  ]
+}

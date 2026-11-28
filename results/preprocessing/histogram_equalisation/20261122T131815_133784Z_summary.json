@@ -1,0 +1,46 @@
+{
+  "scope": "TRAIN",
+  "operation": "histogram_equalisation",
+  "component": "HSV V",
+  "histogram_bins": 256,
+  "cdf_baseline": "first occupied cumulative count",
+  "hsv_conversion": "Matplotlib float64, channels in [0, 1]",
+  "examples": [
+    {
+      "image_id": "British_Shorthair_17",
+      "original_width": 500,
+      "original_height": 332,
+      "timings": [
+        {
+          "variant": "Equalise HSV value",
+          "filter_seconds": 0.06284749999758787
+        }
+      ],
+      "figure": "20261122T131815_133784Z_British_Shorthair_17.png"
+    },
+    {
+      "image_id": "staffordshire_bull_terrier_199",
+      "original_width": 500,
+      "original_height": 311,
+      "timings": [
+        {
+          "variant": "Equalise HSV value",
+          "filter_seconds": 0.04944979999709176
+        }
+      ],
+      "figure": "20261122T131815_133784Z_staffordshire_bull_terrier_199.png"
+    },
+    {
+      "image_id": "english_setter_16",
+      "original_width": 500,
+      "original_height": 333,
+      "timings": [
+        {
+          "variant": "Equalise HSV value",
+          "filter_seconds": 0.05593529999896418
+        }
+      ],
+      "figure": "20261122T131815_133784Z_english_setter_16.png"
+    }
+  ]
+}

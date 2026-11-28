@@ -1,0 +1,87 @@
+{
+  "scope": "TRAIN",
+  "operation": "mean_filter",
+  "kernel_sizes": [
+    3,
+    5,
+    7
+  ],
+  "padding": "NumPy reflect",
+  "rounding": "np.rint, then clip to [0, 255] and cast to uint8",
+  "selected_image_ids": [
+    "saint_bernard_109",
+    "Persian_114",
+    "Bengal_112"
+  ],
+  "examples": [
+    {
+      "image_id": "saint_bernard_109",
+      "original_width": 500,
+      "original_height": 332,
+      "timings": [
+        {
+          "variant": "Mean 3 \u00d7 3",
+          "kernel_size": 3,
+          "filter_seconds": 0.011133499996503815
+        },
+        {
+          "variant": "Mean 5 \u00d7 5",
+          "kernel_size": 5,
+          "filter_seconds": 0.006555599997227546
+        },
+        {
+          "variant": "Mean 7 \u00d7 7",
+          "kernel_size": 7,
+          "filter_seconds": 0.00661720000061905
+        }
+      ],
+      "figure": "20261122T133807_947623Z_saint_bernard_109.png"
+    },
+    {
+      "image_id": "Persian_114",
+      "original_width": 500,
+      "original_height": 439,
+      "timings": [
+        {
+          "variant": "Mean 3 \u00d7 3",
+          "kernel_size": 3,
+          "filter_seconds": 0.008759500000451226
+        },
+        {
+          "variant": "Mean 5 \u00d7 5",
+          "kernel_size": 5,
+          "filter_seconds": 0.008353299999726005
+        },
+        {
+          "variant": "Mean 7 \u00d7 7",
+          "kernel_size": 7,
+          "filter_seconds": 0.009144800002104603
+        }
+      ],
+      "figure": "20261122T133807_947623Z_Persian_114.png"
+    },
+    {
+      "image_id": "Bengal_112",
+      "original_width": 500,
+      "original_height": 436,
+      "timings": [
+        {
+          "variant": "Mean 3 \u00d7 3",
+          "kernel_size": 3,
+          "filter_seconds": 0.009980599999835249
+        },
+        {
+          "variant": "Mean 5 \u00d7 5",
+          "kernel_size": 5,
+          "filter_seconds": 0.010077299994009081
+        },
+        {
+          "variant": "Mean 7 \u00d7 7",
+          "kernel_size": 7,
+          "filter_seconds": 0.010159999997995328
+        }
+      ],
+      "figure": "20261122T133807_947623Z_Bengal_112.png"
+    }
+  ]
+}

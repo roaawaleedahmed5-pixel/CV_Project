@@ -1,0 +1,73 @@
+{
+  "scope": "TRAIN",
+  "operation": "mean_filter",
+  "kernel_sizes": [
+    3,
+    5,
+    7
+  ],
+  "padding": "NumPy reflect",
+  "rounding": "np.rint, then clip to [0, 255] and cast to uint8",
+  "examples": [
+    {
+      "image_id": "american_bulldog_200",
+      "original_width": 500,
+      "original_height": 319,
+      "timings": [
+        {
+          "kernel_size": 3,
+          "filter_seconds": 0.008927200000471203
+        },
+        {
+          "kernel_size": 5,
+          "filter_seconds": 0.00895699999819044
+        },
+        {
+          "kernel_size": 7,
+          "filter_seconds": 0.007662399999389891
+        }
+      ],
+      "figure": "20261122T124920_540516Z_american_bulldog_200.png"
+    },
+    {
+      "image_id": "german_shorthaired_182",
+      "original_width": 375,
+      "original_height": 500,
+      "timings": [
+        {
+          "kernel_size": 3,
+          "filter_seconds": 0.007608100000652485
+        },
+        {
+          "kernel_size": 5,
+          "filter_seconds": 0.007077599999320228
+        },
+        {
+          "kernel_size": 7,
+          "filter_seconds": 0.007730799999990268
+        }
+      ],
+      "figure": "20261122T124920_540516Z_german_shorthaired_182.png"
+    },
+    {
+      "image_id": "Bengal_167",
+      "original_width": 300,
+      "original_height": 225,
+      "timings": [
+        {
+          "kernel_size": 3,
+          "filter_seconds": 0.002972300000692485
+        },
+        {
+          "kernel_size": 5,
+          "filter_seconds": 0.0024873000002116896
+        },
+        {
+          "kernel_size": 7,
+          "filter_seconds": 0.002616999998281244
+        }
+      ],
+      "figure": "20261122T124920_540516Z_Bengal_167.png"
+    }
+  ]
+}
